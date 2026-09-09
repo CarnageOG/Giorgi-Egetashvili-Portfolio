@@ -34,7 +34,7 @@ body {
   max-width: 1140px;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
   display: grid;
   grid-template-columns: 40% 60%;
 }
@@ -66,7 +66,7 @@ h2 {
 }
 
 .nav {
-  margin-top: auto;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -125,23 +125,19 @@ h2 {
   padding: 90px 0 80px 50px;
 }
 
-.ab-section {
+.section {
   scroll-margin-top: 60px;
   margin-bottom: 90px;
 }
 
-.ab-section p {
+.section p {
   max-width: 700px;
   font-size: 16px;
   color: #0d0d0d;
-  line-height: 30px;
+  line-height: 22px;
 }
 
 /* გამოცდილება */
-
-.exp-section {
-  scroll-margin-top: 60px;
-}
 
 .experience-item {
   display: grid;
@@ -175,6 +171,7 @@ h2 {
   text-decoration: none;
   margin-bottom: 10px;
   transition: color 0.2s ease;
+  line-height: 22px;
 }
 
 .description {
