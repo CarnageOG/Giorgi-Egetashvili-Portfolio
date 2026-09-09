@@ -1,0 +1,51 @@
+@media (max-width: 850px) {
+  .site {
+    width: min(100% - 40px, 680px);
+    display: block;
+  }
+
+  .sidebar-inner {
+    position: relative;
+    min-height: auto;
+    padding: 65px 0 35px;
+  }
+
+  .nav {
+    margin-top: 45px;
+  }
+
+  .socials {
+    margin-top: 50px;
+  }
+
+  .content {
+    padding: 25px 0 70px;
+  }
+}
+
+@media (max-width: 520px) {
+  .site {
+    width: min(100% - 32px, 680px);
+  }
+
+  .sidebar-inner {
+    padding-top: 45px;
+  }
+
+  h1 {
+    font-size: 39px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .section p {
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .nav {
+    gap: 20px;
+  }
+}
