@@ -45,7 +45,7 @@ body {
 
 header h1 {
   margin: 0;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 700;
   color: #070d0d;
 }
@@ -255,8 +255,8 @@ header h2 {
 }
 
 #languageBtn {
-  border: 1px solid #dcdcdc;
-  background: #ffffff;
+  border: 1px solid #DCDCDC;
+  background: #FFFFFF;
   color: #070d0d;
   padding: 8px 14px;
   border-radius: 8px;
@@ -267,6 +267,6 @@ header h2 {
 }
 
 #languageBtn:hover {
-  background: #000;
-  color: #fff;
+  background: #070d0d;
+  color: #FFFFFF;
 }
