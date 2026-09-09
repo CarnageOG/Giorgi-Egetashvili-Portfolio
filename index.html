@@ -10,23 +10,28 @@
     <script src="javascript/main.js" defer></script>
   </head>
   <body>
+
+    <div class="language-switcher">
+      <button id="languageBtn" type="button">GE</button>
+    </div>
+
     <main class="site">
       <aside class="sidebar">
         <div class="sidebar-inner">
           <header>
-            <h1>Giorgi Egetashvili</h1>
-            <h2>Frontend Engineer</h2>
+            <h1 data-en="Giorgi Egetashvili" data-ka="გიორგი ეგეტაშვილი" >Giorgi Egetashvili</h1>
+            <h2 data-en="Frontend Engineer" data-ka="ფრონტ-ენდ დეველოპერი" >Front-end Engineer</h2>
           </header>
 
           <nav class="nav" aria-label="Main navigation">
             <a class="nav-link active" href="#about">
-              <span>ABOUT</span>
+              <span data-en="ABOUT" data-ka="ჩემს შესახებ" >ABOUT</span>
             </a>
             <a class="nav-link" href="#experience">
-              <span>EXPERIENCE</span>
+              <span data-en="EXPERIENCE" data-ka="გამოცდილება" >EXPERIENCE</span>
             </a>
             <a class="nav-link" href="#education">
-              <span>EDUCATION</span>
+              <span data-en="EDUCATION" data-ka="განათლება" >EDUCATION</span>
             </a>
           </nav>
 
@@ -58,26 +63,29 @@
 
       <section class="content">
         <section id="about" class="section">
-          <p class="description">
-            Hello! My name is Giorgi Egetashvili, and I am a motivated and passionate 
+          <p data-en="Hello! My name is Giorgi Egetashvili, and I am a motivated Front-End Developer with a strong interest in creating modern, responsive, and user-friendly websites. I enjoy turning ideas and designs into functional web experiences and continuously improving my technical skills through practical projects and learning." data-ka="გამარჯობა! მე მქვია გიორგი ეგეტაშვილი და ვარ მოტივირებული ფრონტ-ენდ დეველოპერი და დაინტერესებული ვარ თანამედროვე, რესპონსიული და მომხმარებლისთვის მოსახერხებელი ვებსაიტების შექმნაში. მსიამოვნებს იდეებისა და დიზაინის ფუნქციონალურ ვებ გამოცდილებად გარდაქმნა და ჩემი ტექნიკური უნარების მუდმივი გაუმჯობესება  პრაქტიკული პროექტებისა და სწავლის გზით."
+            class="description">
+            Hello! My name is Giorgi Egetashvili, and I am a motivated
             Front-End Developer with a strong interest in creating modern, responsive, 
             and user-friendly websites. I enjoy turning ideas and designs into functional
             web experiences and continuously improving my technical skills through practical 
             projects and learning.
           </p>
-          <p class="description">
-            I have practical experience working as a Front-End Developer on several projects at Smart Academy. 
-            I worked on Startup Catalog, a website designed to increase awareness of Georgian startups, 
-            connect them with investors, and provide the public with useful information about startups. 
-            I also worked on Sakitkhavi, a modern blogging platform that allows users to create, publish, 
-            and manage articles and share their knowledge with a wider audience.
+          <p data-en="I have hands-on experience as a Frontend Developer, working with modern web technologies and developing responsive, user-friendly interfaces. I am familiar with the specifics of working in a team, including communication, collaboration, task management, and following development workflows. I am comfortable working as part of a team and continuously improving my technical skills." data-ka="მაქვს პრაქტიკული გამოცდილება Frontend Developer-ის პოზიციაზე, თანამედროვე ვებ ტექნოლოგიების გამოყენებით და რესპონსული, მომხმარებელზე მორგებული ინტერფეისების შექმნაში. ასევე კარგად ვიცნობ გუნდში მუშაობის სპეციფიკას, მათ შორის ვარ კომუნიკაბელური და გარკვეული ვარ დავალებების მართვაში და დეველოპერული პროცესების დღისწესრიგში. კომფორტულად ვმუშაობ გუნდურ გარემოში და მუდმივად ვავითარებ ჩემს ტექნიკურ უნარებს." 
+            class="description">
+            I have hands-on experience as a Frontend Developer, working with modern web technologies 
+            and developing responsive, user-friendly interfaces. I am familiar with the specifics 
+            of working in a team, including communication, collaboration, task management, and 
+            following development workflows. I am comfortable working as part of a team and 
+            continuously improving my technical skills.
           </p>
-          <p class="description"> 
+          <p data-en="My main technical skills include HTML, CSS, JavaScript, TypeScript, Responsive Design, and GitHub. I have completed SEO training and also studied React.js, which helped me expand my knowledge of modern web development." data-ka="ჩემი ძირითადი ტექნიკური უნარები მოიცავს HTML-ს, CSS-ს, JavaScript-ს, TypeScript-ს, რესპონსივ დიზაინს და GitHub-ს. დავამთავრე SEO-ს ტრენინგი და ასევე შევისწავლე React.js, რამაც დამეხმარა თანამედროვე ვებ-დეველოპმენტის შესახებ ცოდნის გაფართოებაში." 
+            class="description"> 
             My main technical skills include HTML, CSS, JavaScript, TypeScript, Responsive Design, and GitHub. 
-            I have completed Front-End Development and SEO training and also studied Front-End Development 
-            with React.js, which helped me expand my knowledge of modern web development.
+            I have completed SEO training and also studied React.js, which helped me expand my knowledge of modern web development.
           </p>
-          <p class="description">
+          <p data-en="I am a responsible, detail-oriented, and hardworking personwho enjoys solving problems and learning new technologies. I am always looking for opportunities to improve my skills, gain valuable experience, and contribute to interesting and innovative projects as a Front-End Developer." data-ka="მე ვარ პასუხისმგებლიანი, დეტალებზე ორიენტირებული და შრომისმოყვარე ადამიანი, რომელსაც სიამოვნებს პრობლემების გადაჭრა და ახალი ტექნოლოგიების შესწავლა. მუდმივად ვეძებ შესაძლებლობებს, რომ გავაუმჯობესო ჩემი უნარები, მივიღო ღირებული გამოცდილება და წვლილი შევიტანო საინტერესო და ინოვაციურ პროექტებში, როგორც ფრონტ-ენდ დეველოპერმა."
+            class="description">
             I am a responsible, detail-oriented, and hardworking personwho enjoys solving problems and learning 
             new technologies. I am always looking for opportunities to improve my skills, gain valuable experience,
             and contribute to interesting and innovative projects as a Front-End Developer.
@@ -85,14 +93,15 @@
         </section>
 
         <section id="experience" class="section">
-          <h2 class="hidden">Experience</h2>
+          <h2 data-en="Experience" data-ka="გამოცდილება" class="hidden">Experience</h2>
           <a href="https://startupcatalog.ge" target="_blank" class="experience-item">
-            <div class="date">jun 2025 - dec 2025</div>
+            <div data-en="jun 2025 - dec 2025" data-ka="იან 2025 - დეკ 2025" class="date">jun 2025 - dec 2025</div>
             <div>
-              <h2 class="title">
-                Front-end Developer, Smart Academy • სმარტ აკადემია • startupcatalog.ge
+              <h2 data-en="Front-end Developer, Smart Academy • startupcatalog.ge" data-ka="ფრონტ-ენდ დეველოპერი, სმარტ აკადემია • startupcatalog.ge" class="title">
+                Front-end Developer, Smart Academy • startupcatalog.ge
               </h2>
-              <p class="description">
+              <p data-en="I worked as a front-end developer on the Smart Academy project, created the website “Startup Catalog.” The goal of the project was to increase the awareness of Georgian startups, facilitate their connection with investors, and provide the public with access to information about Georgian startups." data-ka="მე ვმუშაობდი ფრონტ-ენდ დეველოპერად Smart Academy პროექტზე, რომლის ფარგლებშიც შეიქმნა ვებსაიტი „სტარტაპების კატალოგი“. პროექტის მიზანი იყო ქართული სტარტაპების შესახებ ცნობადობის გაზრდა, ინვესტორებთან მათი კავშირის გამარტივება და საზოგადოებისთვის ქართული სტარტაპების შესახებ ინფორმაციაზე წვდომის უზრუნველყოფა."
+                class="description">
                 I worked as a front-end developer on the Smart Academy project, 
                 which created the website “Startup Catalog.” The goal of the project 
                 was to increase the awareness of Georgian startups, facilitate their 
@@ -110,12 +119,13 @@
           </a>
 
           <a href="https://sakitkhavi.ge" target="_blank" class="experience-item">
-            <div class="date">sep 2025 - aug 2026</div>
+            <div data-en="" data-ka="სექ 2025 - აგვ 2026" class="date">sep 2025 - aug 2026</div>
             <div>
-              <h2 class="title">
-                Front-end Developer, Smart Academy • სმარტ აკადემია • sakitkhavi.ge
+              <h2 data-en="Front-end Developer, Smart Academy • sakitkhavi.ge" data-ka="ფრონტ-ენდ დეველოპერი, სმარტ აკადემია • sakitkhavi.ge" class="title">
+                Front-end Developer, Smart Academy • sakitkhavi.ge
               </h2>
-              <p class="description">
+              <p data-en="I worked as a front-end developer on the Smart Academy project,within the framework of which the website “Sakitkhavi” was created - a modern blogging platform that allows you to create, publish and manage your own articles, share knowledge and experience with a wide audience." data-ka="ვმუშაობდი ფრონტ-ენდ დეველოპერად Smart Academy პროექტზე, რომლის ფარგლებშიც შეიქმნა ვებსაიტი „საკითხავი“ - თანამედროვე ბლოგინგის პლატფორმა, რომელიც საშუალებას გაძლევთ შექმნათ, გამოაქვეყნოთ და მართოთ საკუთარი სტატიები, გაუზიაროთ ცოდნა და გამოცდილება ფართო აუდიტორიას."
+                class="description">
                 I worked as a front-end developer on the Smart Academy project, 
                 within the framework of which the website "Sakitkhavi" was created 
                 - a modern blogging platform that allows you to create, publish 
@@ -131,23 +141,23 @@
             </div>
           </a>
 
-          <a class="link" href="pdf/CV - გიორგი ეგეტაშვილი(english).pdf" target="_blank">
+          <a data-en="View full résumé" data-ka="სრული რეზიუმეს ნახვა" 
+            class="link" href="pdf/CV - გიორგი ეგეტაშვილი(english).pdf" target="_blank">
             View full résumé
-            <img class="arrow" src="images/Arrow Right Up.svg">
           </a>
         </section>
         
         
         <section id="education" class="section">
-          <h2 class="hidden">Education</h2>
+          <h2 data-en="Education" data-ka="განათლება" class="hidden">Education</h2>
           <a href="images/Giorgi Egetashvili-front.png" target="_blank" class="education-item">
             <img src="images/logo.png" alt="Smart Academy" class="education-image" />
             <div class="education-info">
               <div class="education-header">
-                <h2 class="edu-title">Smart Academy</h2>
-                <h3 class="subtitle">Front-end Development & SEO</h3>
+                <h2 data-en="Smart Academy" data-ka="სმარტ აკადემია" class="edu-title">Smart Academy</h2>
+                <h3 data-en="Front-end Development & SEO" data-ka="ფრონტ-ენდ დეველოპმენტი & SEO" class="subtitle">Front-end Development & SEO</h3>
               </div>
-              <p class="date">des 2024 - apr 2025</p>
+              <p data-en="des 2024 - apr 2025" data-ka="დეკ 2024 - აგვ 2025" class="date">des 2024 - apr 2025</p>
             </div>
           </a>
 
@@ -155,10 +165,10 @@
             <img src="images/logo.png" alt="Smart Academy" class="education-image" />
             <div class="education-info">
               <div class="education-header">
-                <h2 class="edu-title">Smart Academy</h2>
-                <h3 class="subtitle">Front-end Development with React.JS</h3>
+                <h2 data-en="Smart Academy" data-ka="სმარტ აკადემია" class="edu-title">Smart Academy</h2>
+                <h3 data-en="Front-end Development with React.JS" data-ka="ფრონტ-ენდ დეველოპმენტი React.JS-ით" class="subtitle">Front-end Development with React.JS</h3>
               </div>
-              <p class="date">may 2026 - jun 2026</p>
+              <p data-en="may 2026 - jun 2026" data-ka="მაი 2026 - ივნ 2026" class="date">may 2026 - jun 2026</p>
             </div>
           </a>
 
@@ -166,16 +176,16 @@
             <img src="images/ilia.png" alt="Ilia State University" class="education-image" />
             <div class="education-info">
               <div class="education-header">
-                <h2 class="edu-title">Ilia State University</h2>
-                <h3 class="subtitle">International Relations</h3>
+                <h2 data-en="Ilia State University" data-ka="ილიას სახელმწიფო უნივერსიტეტი" class="edu-title">Ilia State University</h2>
+                <h3 data-en="International Relations" data-ka="საერთაშორისო ურთიერთობები" class="subtitle">International Relations</h3>
               </div>
-              <p class="date">oct 2019 - jun 2023</p>
+              <p data-en="oct 2019 - jun 2023" data-ka="ოქტ 2019 - ივნ 2023" class="date">oct 2019 - jun 2023</p>
             </div>
           </a>
 
-          <a class="link" href="pdf/სარეკომენდაციო წერილი - გიორგი ეგეტაშვილი.pdf" target="_blank">
+          <a data-en="View letter of recommendation" data-ka="სარეკომენდაციო წერილის ნახვა" 
+            class="link" href="pdf/სარეკომენდაციო წერილი - გიორგი ეგეტაშვილი.pdf" target="_blank">
             View letter of recommendation
-            <img class="arrow" src="images/Arrow Right Up.svg">
           </a>
         </section>
       </section>

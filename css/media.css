@@ -112,4 +112,9 @@
     font-size: 18px;
     margin:10px 0;
   }
+
+  .language-switcher {
+    top: 10px;
+    right: 10px;
+  }
 }

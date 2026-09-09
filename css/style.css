@@ -9,8 +9,8 @@ html {
 }
 
 @font-face {
-  font-family: "scoutie";
-  src: url("../fonts/ScoutieSans-VariableFont_wght.ttf") format("truetype");
+  font-family: "sans";
+  src: url("../fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
@@ -18,8 +18,7 @@ html {
 body {
   margin: 0;
   background: #f7f7f8;
-  -webkit-font-smoothing: antialiased;
-  font-family: "scoutie";
+  font-family: "sans";
 }
 
 .site {
@@ -234,7 +233,7 @@ header h2 {
 }
 
 .link {
-  text-decoration: none;
+  text-decoration: underline;
   display: flex;
   align-items: center;
   gap: 4px;
@@ -244,14 +243,30 @@ header h2 {
   margin-top: 20px;
 }
 
-.arrow {
-  transition: all 0.3s ease;
-}
-
 .link:hover {
   color: #1B7CDE;
 }
 
-.link:hover .arrow {
-  filter: brightness(0) saturate(100%) invert(36%) sepia(92%) saturate(749%) hue-rotate(196deg) brightness(96%) contrast(95%);
+.language-switcher {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 10;
+}
+
+#languageBtn {
+  border: 1px solid #dcdcdc;
+  background: #ffffff;
+  color: #070d0d;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#languageBtn:hover {
+  background: #000;
+  color: #fff;
 }
