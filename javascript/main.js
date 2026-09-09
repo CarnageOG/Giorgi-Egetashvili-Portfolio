@@ -41,15 +41,24 @@ const languageBtn = document.getElementById("languageBtn");
 let currentLanguage = localStorage.getItem("language") || "en";
 
 function changeLanguage(language) {
-  document.querySelectorAll("[data-en][data-ka]").forEach(element => {
-    element.textContent = element.dataset[language];
-  });
+document.querySelectorAll("[data-en][data-ka]").forEach(element => {
+element.textContent = element.dataset[language];
+});
 
-  document.documentElement.lang = language === "ka" ? "ka" : "en";
+document.documentElement.lang = language === "ka" ? "ka" : "en";
 
-  languageBtn.textContent = language === "en" ? "GE" : "EN";
+languageBtn.textContent = language === "en" ? "GE" : "EN";
 
-  localStorage.setItem("language", language);
+const cvLink = document.getElementById("cvLink");
+
+if (cvLink) {
+cvLink.href =
+language === "en"
+? "pdf/CV - გიორგი ეგეტაშვილი(english).pdf"
+: "pdf/CV - გიორგი ეგეტაშვილი.pdf";
+}
+
+localStorage.setItem("language", language);
 }
 
 languageBtn.addEventListener("click", () => {
