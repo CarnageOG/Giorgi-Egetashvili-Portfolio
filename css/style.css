@@ -1,4 +1,6 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 html {
   scroll-behavior: smooth;
@@ -13,7 +15,7 @@ html {
 
 body {
   margin: 0;
-  background: #F7F7F8;
+  background: #f7f7f8;
   -webkit-font-smoothing: antialiased;
   font-family: "scoutie";
 }
@@ -63,14 +65,8 @@ h2 {
   color: #070d0d;
 }
 
-.tagline {
-  margin: 19px 0 0;
-  font-size: 16px;
-  color: #0D0D0D;
-}
-
 .nav {
-  margin-top: 60px;
+  margin-top: auto;
   display: flex;
   flex-direction: column;
   gap: 25px;
@@ -85,8 +81,8 @@ h2 {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  transition: color .3s ease;
-  color: #7B7B7B;
+  transition: color 0.3s ease;
+  color: #7b7b7b;
 }
 
 .nav-link:hover,
@@ -119,7 +115,7 @@ h2 {
   filter: brightness(0) invert(1);
 }
 
-.icons{
+.icons {
   width: 24px;
   height: 24px;
   transition: all 0.3s ease;
@@ -129,13 +125,77 @@ h2 {
   padding: 90px 0 80px 50px;
 }
 
-.section {
+.ab-section {
+  scroll-margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.ab-section p {
+  max-width: 700px;
+  font-size: 16px;
+  color: #0d0d0d;
+  line-height: 30px;
+}
+
+/* გამოცდილება */
+
+.exp-section {
   scroll-margin-top: 60px;
 }
 
-.section p {
-  max-width: 700px;
+.experience-item {
+  display: grid;
+  grid-template-columns: 125px 1fr;
+  gap: 30px;
+  padding: 30px 0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.experience-item:hover {
+  scale: 1.03;
+}
+
+.date {
+  color: #6f7c96;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  padding-top: 3px;
+  white-space: nowrap;
+}
+
+.title {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #070d0d;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.description {
+  color: #0d0d0d;
   font-size: 16px;
-  color: #0D0D0D;
-  line-height: 22px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: #FFFFFF;
+  color: #0d0d0d;
+  border: 1px solid #e5e5e5;
+  font-size: 12px;
+  font-weight: 700;
 }
