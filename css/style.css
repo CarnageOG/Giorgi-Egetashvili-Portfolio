@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -42,14 +44,14 @@ body {
   flex-direction: column;
 }
 
-h1 {
+header h1 {
   margin: 0;
   font-size: 40px;
   font-weight: 700;
   color: #070d0d;
 }
 
-h2 {
+header h2 {
   margin: 14px 0 0;
   font-size: 20px;
   color: #070d0d;
@@ -69,7 +71,7 @@ h2 {
   align-items: center;
   gap: 16px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   transition: color 0.3s ease;
   color: #7b7b7b;
@@ -120,7 +122,7 @@ h2 {
   margin-bottom: 90px;
 }
 
-.section p {
+.description {
   max-width: 600px;
   font-size: 16px;
   color: #0d0d0d;
@@ -186,3 +188,49 @@ h2 {
   font-size: 12px;
   font-weight: 700;
 }
+
+/* განათლება */
+
+.education-item {
+  display:flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 0;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.education-item:hover {
+  scale: 1.03;
+}
+
+.education-image {
+  width:150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.edu-title {
+  color: #070d0d;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.subtitle {
+  color: #070d0d;
+  font-size: 16px;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.education-header {
+  display: flex;
+  gap: 2px;
+  flex-direction: column;
+}
+
