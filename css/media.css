@@ -1,6 +1,6 @@
 @media (max-width: 850px) {
   .site {
-    width: min(100% - 40px, 680px);
+    padding: 0 40px;
     display: block;
   }
 
@@ -11,7 +11,7 @@
   }
 
   .nav {
-    margin-top: 45px;
+    margin-top: 30px;
   }
 
   .socials {
@@ -19,33 +19,97 @@
   }
 
   .content {
-    padding: 25px 0 70px;
-  }
-}
-
-@media (max-width: 520px) {
-  .site {
-    width: min(100% - 32px, 680px);
+    padding: 20px 0 10px;
   }
 
-  .sidebar-inner {
-    padding-top: 45px;
+  .section {
+    margin-bottom: 60px;
   }
 
-  h1 {
-    font-size: 39px;
+  header h1 {
+    font-size: 30px;
   }
 
-  h2 {
+  header h2 {
     font-size: 18px;
   }
 
-  .section p {
-    font-size: 15px;
-    line-height: 1.65;
+  .link{
+    font-size: 18px;
   }
 
-  .nav {
-    gap: 20px;
+  .hidden {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-inner {
+    position: relative;
+    min-height: auto;
+    padding: 40px 0 10px;
+  }
+
+  .site {
+    padding: 0 20px;
+  }
+
+  .experience-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+  }
+
+  .section{
+    margin-bottom: 40px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .socials {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .site {
+    padding: 0 10px;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .education-image {
+    width:100px;
+  }
+
+  .education-item {
+    gap: 15px;
+  }
+
+  .edu-title {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .link{
+    font-size: 16px;
+  }
+
+  .hidden {
+    display: block;
+    font-size: 18px;
+    margin:10px 0;
   }
 }

@@ -53,8 +53,14 @@ header h1 {
 
 header h2 {
   margin: 14px 0 0;
-  font-size: 20px;
+  font-size: 24px;
   color: #070d0d;
+}
+
+.hidden {
+  display: none;
+  font-size: 20px;
+  margin:10px 0;
 }
 
 .nav {
@@ -120,13 +126,6 @@ header h2 {
 .section {
   scroll-margin-top: 60px;
   margin-bottom: 90px;
-}
-
-.description {
-  max-width: 600px;
-  font-size: 16px;
-  color: #0d0d0d;
-  line-height: 22px;
 }
 
 /* გამოცდილება */
