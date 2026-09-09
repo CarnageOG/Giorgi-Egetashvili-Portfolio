@@ -20,16 +20,6 @@ body {
   font-family: "scoutie";
 }
 
-/* body::before {
-  content: "";
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 1px;
-  height: 40px;
-  background: #d8b64b;
-} */
-
 .site {
   max-width: 1140px;
   min-height: 100vh;
@@ -131,7 +121,7 @@ h2 {
 }
 
 .section p {
-  max-width: 700px;
+  max-width: 600px;
   font-size: 16px;
   color: #0d0d0d;
   line-height: 22px;
